@@ -1,11 +1,12 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="packjava:jar">
+  <artifact type="jar" build-on-make="true" name="packjava:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/packjava_jar</output-path>
     <root id="archive" name="packjava.jar">
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
       </element>
       <element id="module-output" name="packjava.main" />
+<<<<<<< HEAD
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.6.0/f29e6318333d2303ce4965c9819cfad08de7d1e5/junit-jupiter-api-5.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.6.0/83c9e737f6015d9e00029b9b1d51e952a884b8f9/junit-jupiter-engine-5.6.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.6.0/a3a6ec96c010875444b3ca31828108093758ec00/junit-platform-engine-1.6.0.jar" path-in-jar="/" />
@@ -43,6 +44,39 @@
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.27.RELEASE/ab25ccb3857069b516b9fdee7f0ff3a3bb07639e/spring-core-4.3.27.RELEASE.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.27.RELEASE/bddfa94e415a7e53e85643d479e15be25c091bd4/spring-expression-4.3.27.RELEASE.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.27.RELEASE/d3acbba626f3d45062201ed27a17a7f2c08e2ab0/spring-tx-4.3.27.RELEASE.jar" path-in-jar="/" />
+=======
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.11.0" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.11.0" />
+      <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.11.0" />
+      <element id="library" level="project" name="Gradle: com.github.ipfs:java-ipfs-http-client:v1.3.3" />
+      <element id="library" level="project" name="Gradle: com.github.ipld:java-cid:v1.3.1" />
+      <element id="library" level="project" name="Gradle: com.github.multiformats:java-multiaddr:v1.4.1" />
+      <element id="library" level="project" name="Gradle: com.github.multiformats:java-multibase:v1.1.0" />
+      <element id="library" level="project" name="Gradle: com.github.multiformats:java-multihash:v1.3.0" />
+      <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.1" />
+      <element id="library" level="project" name="Gradle: com.moandjiezana.toml:toml4j:0.7.2" />
+      <element id="library" level="project" name="Gradle: com.squareup:javapoet:1.7.0" />
+      <element id="library" level="project" name="Gradle: com.webank:key-mini-toolkit:1.0.2" />
+      <element id="library" level="project" name="Gradle: commons-io:commons-io:2.4" />
+      <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+      <element id="library" level="project" name="Gradle: info.picocli:picocli:3.6.0" />
+      <element id="library" level="project" name="Gradle: io.netty:netty-all:4.1.53.Final" />
+      <element id="library" level="project" name="Gradle: log4j:log4j:1.2.17" />
+      <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.1" />
+      <element id="library" level="project" name="Gradle: org.bouncycastle:bcprov-jdk15on:1.60" />
+      <element id="library" level="project" name="Gradle: org.fisco-bcos.java-sdk:fisco-bcos-java-sdk:2.7.1" />
+      <element id="library" level="project" name="Gradle: org.fisco-bcos:netty-sm-ssl-context:1.2.0" />
+      <element id="library" level="project" name="Gradle: org.fisco-bcos:tcnative:2.0.34.0" />
+      <element id="library" level="project" name="Gradle: org.projectlombok:lombok:1.18.6" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.30" />
+      <element id="library" level="project" name="Gradle: org.slf4j:slf4j-log4j12:1.7.30" />
+      <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.27.RELEASE" />
+      <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.27.RELEASE" />
+      <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.27.RELEASE" />
+      <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.27.RELEASE" />
+      <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.27.RELEASE" />
+      <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.27.RELEASE" />
+>>>>>>> master
     </root>
   </artifact>
 </component>
