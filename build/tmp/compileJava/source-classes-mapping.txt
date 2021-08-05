@@ -278,11 +278,8 @@ com/yango/packj/contract/TstOut.java
  com.yango.packj.contract.TstOut$8
  com.yango.packj.contract.TstOut$9
  com.yango.packj.contract.TstOut$InsertRecordEventEventResponse
-com/yango/packj/contract/TstBaseV6.java
- com.yango.packj.contract.TstBaseV6
- com.yango.packj.contract.TstBaseV6$1
- com.yango.packj.contract.TstBaseV6$2
- com.yango.packj.contract.TstBaseV6$3
+com/yango/packj/PackJ.java
+ com.yango.packj.PackJ
 com/yango/packj/client/PosOutRecord.java
  com.yango.packj.client.PosOutRecord
 com/yango/packj/contract/TstPayV5.java
@@ -539,5 +536,8 @@ com/yango/packj/contract/TstOutV5.java
  com.yango.packj.contract.TstOutV5$8
  com.yango.packj.contract.TstOutV5$9
  com.yango.packj.contract.TstOutV5$InsertRecordEventEventResponse
-com/yango/packj/PackJ.java
- com.yango.packj.PackJ
+com/yango/packj/contract/TstBaseV6.java
+ com.yango.packj.contract.TstBaseV6
+ com.yango.packj.contract.TstBaseV6$1
+ com.yango.packj.contract.TstBaseV6$2
+ com.yango.packj.contract.TstBaseV6$3
