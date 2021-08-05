@@ -4,7 +4,8 @@
 Failed. Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/context/ApplicationContext
 
 ```shell
-/usr/bin/java -Dfile.encoding=UTF-8 -jar  /home/pi/Documents/project/dianke-raspberry-java/out/artifacts/packjava_jar/packjava.jar
+/usr/bin/java -Dfile.encoding=UTF-8 -jar  \
+/home/pi/Documents/project/dianke-raspberry-java/out/artifacts/packjava_jar/packjava.jar
 
 ```
 ### Use gradlew run
@@ -15,3 +16,6 @@ Failed. Exception in thread "main" java.lang.NoClassDefFoundError: org/springfra
 ./gradlew run --args="out" // 出车
 ./gradlew run --args="pay" // 支付
 ```
+### Test Env
+- Raspberry Pi 4
+- OpenJDK 11.0
