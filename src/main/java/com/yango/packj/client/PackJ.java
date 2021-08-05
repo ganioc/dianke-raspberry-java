@@ -9,14 +9,36 @@ public class PackJ {
 
     public static void main(String[] args) {
         System.out.println("Hello pack java.");
-        System.out.println("To do the real work now.");
-        PosClient posClient = new PosClient(1, privateKey);
+        System.out.println("args length: " + args.length);
+        for(int i=0; i< args.length; i++){
+            System.out.println(args[i]);
+        }
+        if(args.length<1){
+            System.out.println("No arguments.");
+            return;
+        }
+        System.out.println("cmd: " + args[0]);
 
-        int rtn = posClient.getIndex(contractAddress);
+        if(args[0].equals("in")){
+            PackCmd.in();
+        }else if(args[0].equals("out")){
+            PackCmd.out();
+        }else if(args[0].equals("pay")){
+            PackCmd.pay();
+        }else if(args[0].equals("checkIn")) {
+            PackCmd.checkIn();
+        }
+        else {
+            System.out.println("Unrecognized args :" + args[0]);
+        }
 
-        System.out.println("index is: " + rtn);
-
-        posClient.stop();
-        System.out.println("End.");
+//        PosClient posClient = new PosClient(1, privateKey);
+//
+//        int rtn = posClient.getIndex(contractAddress);
+//
+//        System.out.println("index is: " + rtn);
+//
+//        posClient.stop();
+        System.out.println("-------------End------------");
     }
 }
